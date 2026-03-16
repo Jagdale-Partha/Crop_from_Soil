@@ -1,0 +1,73 @@
+Config,Feature,Best_Params,R2,MAE,RMSE,MPE
+Spectral Only,p1.pH.index,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09123040750285627,10.779706083606087,13.71844308119764,-inf
+Spectral Only,p1.EC.ds_m,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.08512826587217182,10.775864342438853,13.764423837758708,-inf
+Spectral Only,p1.Clay.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09165652290807591,10.772312240948677,13.715226465354675,-inf
+Spectral Only,p1.Sand.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.08953097741098859,10.769031984065071,13.731264067991837,-inf
+Spectral Only,p1.Silt.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09002292371774456,10.781080530307225,13.727553915752235,-inf
+Spectral Only,p2.N.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09211210901215705,10.780207298932908,13.711786549487627,-inf
+Spectral Only,p2.Zn.mg_kg,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.08628040318304764,10.770450704343673,13.755754041958136,-inf
+Spectral Only,p2.OC.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09205773398975359,10.79246023895871,13.712197154995778,-inf
+Spectral Only,p3.Fe.mg_kg,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09030884984073229,10.758467444855018,13.72539706216429,-inf
+Spectral Only,p3.K.mg_kg,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.08956646890785391,10.773147384123224,13.730996432381522,-inf
+Spectral Only,p3.P.mg_kg,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09012407540066425,10.775173492163884,13.72679092742704,-inf
+Spectral Only,p3.S.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09145421277254295,10.763972007562977,13.716753737203023,-inf
+Spectral Only,p4.BD.g_cm3,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09221138603938717,10.773336673221237,13.711036840941233,-inf
+Spectral Only,p4.CEC.cmolc_kg,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.08570020772695486,10.783035801239924,13.760120676682995,-inf
+Spectral Only,p4.CF.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09102932061179836,10.770211682898974,13.719960763186338,-inf
+Spectral Only,p4.WR_10kPa.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09242142199024805,10.772801514574475,13.709450581094327,-inf
+Spectral Only,p4.WR_1500kPa.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09276537946964802,10.769780546848825,13.706852505822306,-inf
+Spectral Only,p4.WR_33kPa.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09874171226942197,10.767450492705718,13.661631533530711,-inf
+Spectral + pH,p1.pH.index,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.0851217267255513,10.792387590016881,13.764473029039534,-inf
+Spectral + pH,p1.EC.ds_m,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.08839214324441658,10.784731928679745,13.739849063948496,-inf
+Spectral + pH,p1.Clay.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09151306783135771,10.78995145567783,13.716309448409968,-inf
+Spectral + pH,p1.Sand.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09348569114252747,10.766226287056277,13.701410051270912,-inf
+Spectral + pH,p1.Silt.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09260787135796944,10.780353125435367,13.708042301002774,-inf
+Spectral + pH,p2.N.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.0940189180332377,10.789926829207479,13.697379759141644,-inf
+Spectral + pH,p2.Zn.mg_kg,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09312868325714119,10.776057230721323,13.70410776374854,-inf
+Spectral + pH,p2.OC.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09298293188078521,10.759495402674943,13.705208974186657,-inf
+Spectral + pH,p3.Fe.mg_kg,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09104003459797683,10.781619599466165,13.719879904745863,-inf
+Spectral + pH,p3.K.mg_kg,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09158231899914848,10.767417933321802,13.715786662382143,-inf
+Spectral + pH,p3.P.mg_kg,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09546067881614784,10.784845329546432,13.68647654692231,-inf
+Spectral + pH,p3.S.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.08814506598066507,10.775615380356706,13.741710924994196,-inf
+Spectral + pH,p4.BD.g_cm3,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09843314914454948,10.769803888568132,13.66396999467091,-inf
+Spectral + pH,p4.CEC.cmolc_kg,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.0935810740244255,10.76866976844405,13.700689205310141,-inf
+Spectral + pH,p4.CF.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09252174885974118,10.769455998796426,13.708692815152187,-inf
+Spectral + pH,p4.WR_10kPa.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09169257830854094,10.76595503771564,13.714954259464259,-inf
+Spectral + pH,p4.WR_1500kPa.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09000016653360687,10.774511171303674,13.727725567614254,-inf
+Spectral + pH,p4.WR_33kPa.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.08921777054229818,10.792303683812111,13.733625683988553,-inf
+Spectral + EC,p1.pH.index,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09515465386902278,10.719016240546837,13.688791564615235,-inf
+Spectral + EC,p1.EC.ds_m,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09245867165676458,10.776177487237087,13.709169240329668,-inf
+Spectral + EC,p1.Clay.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09578754831141956,10.762952579953744,13.684003411808726,-inf
+Spectral + EC,p1.Sand.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09197319552017902,10.756191739665818,13.712835511212457,-inf
+Spectral + EC,p1.Silt.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09007544423691938,10.783678472802102,13.727157758156181,-inf
+Spectral + EC,p2.N.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.08859197770205196,10.76263747693716,13.738343018474296,-inf
+Spectral + EC,p2.Zn.mg_kg,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09220561809274086,10.751608728944074,13.711080399762157,-inf
+Spectral + EC,p2.OC.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.08640007602379685,10.764884225818804,13.75485319443673,-inf
+Spectral + EC,p3.Fe.mg_kg,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09216666734911316,10.769433502652594,13.711374547346445,-inf
+Spectral + EC,p3.K.mg_kg,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09348281211152643,10.756134265384276,13.701431808651128,-inf
+Spectral + EC,p3.P.mg_kg,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09005619524019493,10.78306564313077,13.727302952950426,-inf
+Spectral + EC,p3.S.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09064883707946436,10.766056295509062,13.722831963043516,-inf
+Spectral + EC,p4.BD.g_cm3,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.08953313560253828,10.760454581547846,13.731247793569036,-inf
+Spectral + EC,p4.CEC.cmolc_kg,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.08447492331248874,10.798596343491043,13.769337793784183,-inf
+Spectral + EC,p4.CF.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09114924114329082,10.743763544105848,13.719055695897618,-inf
+Spectral + EC,p4.WR_10kPa.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09050100441994069,10.771547612437539,13.72394737389044,-inf
+Spectral + EC,p4.WR_1500kPa.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.0951121416564985,10.76392576353799,13.689113130053757,-inf
+Spectral + EC,p4.WR_33kPa.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.08736791615464468,10.757574079469753,13.747565526087882,-inf
+Spectral + pH + EC,p1.pH.index,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09169148888196577,10.765598217895024,13.714962484339894,-inf
+Spectral + pH + EC,p1.EC.ds_m,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09207457666278651,10.773544616462267,13.712069971179718,-inf
+Spectral + pH + EC,p1.Clay.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09051729574482037,10.769031998156176,13.723824458808831,-inf
+Spectral + pH + EC,p1.Sand.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09361068071400802,10.758868075171128,13.700465448196779,-inf
+Spectral + pH + EC,p1.Silt.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09012646681053826,10.764204072050397,13.726772888481264,-inf
+Spectral + pH + EC,p2.N.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09295487285516402,10.774642334272677,13.705420961286578,-inf
+Spectral + pH + EC,p2.Zn.mg_kg,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09386596846102657,10.769790068210904,13.698535920127144,-inf
+Spectral + pH + EC,p2.OC.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.08983432871757313,10.798134433458237,13.728976376808122,-inf
+Spectral + pH + EC,p3.Fe.mg_kg,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.08704833288309188,10.78885393008215,13.749972359841724,-inf
+Spectral + pH + EC,p3.K.mg_kg,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09248936724240886,10.781850357312376,13.708937397148706,-inf
+Spectral + pH + EC,p3.P.mg_kg,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09067664921248897,10.774444096376204,13.722622107840225,-inf
+Spectral + pH + EC,p3.S.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.08883891069516692,10.791289083631392,13.73648178843566,-inf
+Spectral + pH + EC,p4.BD.g_cm3,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.08717440122743414,10.778706031229047,13.749022968894353,-inf
+Spectral + pH + EC,p4.CEC.cmolc_kg,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09339532084863089,10.763865122619269,13.702092980146697,-inf
+Spectral + pH + EC,p4.CF.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09688015099817004,10.767973014141262,13.67573339841178,-inf
+Spectral + pH + EC,p4.WR_10kPa.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.08871991865094164,10.767205752947802,13.737378709247015,-inf
+Spectral + pH + EC,p4.WR_1500kPa.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.09283214578448751,10.768682058668913,13.706348130852982,-inf
+Spectral + pH + EC,p4.WR_33kPa.wt_pct,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}",0.08938399868346636,10.767878012466184,13.73237235516355,-inf

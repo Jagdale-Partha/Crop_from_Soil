@@ -1,0 +1,48 @@
+Config            , Feature             , Best_Params                                                   , R2                  , MAE                   , RMSE                  , MPE
+Spectral Only     , p1.pH.index         , "{'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 200}" , 0.5133347756202433  ,   0.7824003397646283  ,   0.952514118429292   , -3.472050594035679
+Spectral Only     , p1.EC.ds_m          , "{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 200}", 0.16088000885943143 ,   0.1671538616870657  ,   0.3063563874274927  , -93.32992450591287
+Spectral Only     , p1.Clay.wt_pct      , "{'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 200}" , 0.2875162534693029  ,  14.585557504619063   ,  18.633512562546137   , -inf
+Spectral Only     , p1.Sand.wt_pct      , "{'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 200}" , 0.25696068345085976 ,   7.760319193784518   ,  12.576490871569549   , 
+Spectral Only     , p1.Silt.wt_pct      , "{'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 200}", 0.2426898955578145  ,  14.507943190243147   ,  18.08994571589377    , -151.91124828734874
+Spectral Only     , p2.N.wt_pct         , "{'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 200}", 0.6817245761238275  ,   0.1252524921054962  ,   0.21333408815915003 , -inf
+Spectral Only     , p2.OC.wt_pct        , "{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 200}" , 0.750933398348554   ,   1.9683417289313552  ,   4.00216868549558    , 
+Spectral Only     , p3.K.mg_kg          , "{'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 200}" , 0.09466372860459382 , 226.4913481215715     , 386.13869172539916    , 
+Spectral Only     , p3.P.mg_kg          , "{'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 200}", 0.0759193123258306  ,  21.23189326696988    ,  31.694077418565286   , -inf
+Spectral Only     , p3.S.wt_pct         , "{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 50}"  , -0.05566724834839776,   0.013098966984071994,   0.021686870033862805, -inf
+Spectral Only     , p4.BD.g_cm3         , "{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 100}", 0.2648368438753287  ,   0.19271586891628628 ,   0.25265936431316366 , -6.47573247487623
+Spectral Only     , p4.CEC.cmolc_kg     , "{'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 200}" , 0.23958564495601298 ,   8.106065124625111   ,  12.313538821882169   , -90.59285464671954
+Spectral Only     , p4.CF.wt_pct        , "{'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 200}", 0.052035685391767506,   8.954973435463806   ,  11.646936374097605   , -inf
+Spectral Only     , p4.WR_10kPa.wt_pct  , "{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 50}" , 0.12730688419457492 ,   8.78388498401676    ,  11.306419208537797   , -12.806191023596996
+Spectral Only     , p4.WR_1500kPa.wt_pct, "{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 50}" , 0.10724009839783188 ,   8.140528520113618   ,   9.851246257929565   , -33.67127878305736
+Spectral Only     , p4.WR_33kPa.wt_pct  , "{'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 50}" , 0.09778638593433375 ,   9.830677279521844   ,  12.86040453132126    , -30.28462688872687
+Spectral + pH     , p1.pH.index         , "{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 200}", 0.9999406066264536  ,   0.005484601262694063,   0.010522653302008843, -0.0029766751975894403
+Spectral + pH     , p1.EC.ds_m          , "{'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 100}", 0.2016604480449684  ,   0.16146767929979094 ,   0.2859023178521674  , -85.99828736165198
+Spectral + pH     , p1.Clay.wt_pct      , "{'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 100}" , 0.393426943695962   ,  14.102449058637333   ,  17.650273438897955   , -inf
+Spectral + pH     , p1.Sand.wt_pct      , "{'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 200}", 0.36976965985553745 ,   7.08039968350674    ,  11.640929774087336   , 
+Spectral + pH     , p1.Silt.wt_pct      , "{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 200}" , 0.2724442034205553  ,  13.698030079952582   ,  18.875794743589427   , -101.84370043495599
+Spectral + pH     , p2.N.wt_pct         , "{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 200}", 0.6756285523167662  ,   0.12312306824528202 ,   0.21267933084653345 , -inf
+Spectral + pH     , p2.OC.wt_pct        , "{'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 200}", 0.8288687007078768  ,   1.7255340421149237  ,   3.3219284657877997  , -inf
+Spectral + pH     , p3.K.mg_kg          , "{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 200}", 0.14827097046009652 , 212.4517693818854     , 430.66584029173157    , 
+Spectral + pH     , p3.P.mg_kg          , "{'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 200}", 0.1000129406786372  ,  20.746147629293723   ,  31.278167414711497   , -inf
+Spectral + pH     , p4.BD.g_cm3         , "{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 50}" , 0.30674930814648405 ,   0.17011996444441377 ,   0.2186099128991233  , -4.01746832477504
+Spectral + pH     , p4.CEC.cmolc_kg     , "{'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 200}", 0.4765423447827938  ,   6.612386594698249   ,  10.230551130154563   , -62.51592944219024
+Spectral + pH     , p4.CF.wt_pct        , "{'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 200}", 0.0817455752370021  ,   8.797398638144742   ,  11.462971783179405   , -inf
+Spectral + pH     , p4.WR_10kPa.wt_pct  , "{'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 200}", 0.16009094856718376 ,   9.029615039916218   ,  11.677542081854567   , -17.15350433551272
+Spectral + pH     , p4.WR_1500kPa.wt_pct, "{'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 200}", 0.189931290736149   ,   7.769788110591626   ,   9.624714466154472   , -58.28057054886454
+Spectral + pH     , p4.WR_33kPa.wt_pct  , "{'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 50}"  , -0.05370931018528058,   9.808604599573362   ,  13.134559158394294   , -25.505783100064516
+Spectral + EC     , p1.pH.index         , "{'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 200}" , 0.6111843190854717  ,   0.6751001570693873  ,   0.8513499917190096  , -2.454586150973848
+Spectral + EC     , p1.EC.ds_m          , "{'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 100}" , 0.9691034001162281  ,   0.005725599730314709,   0.05878550455661421 , -0.227500268384206
+Spectral + EC     , p1.Sand.wt_pct      , "{'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 50}" , 0.31274779736467007 ,   3.552460740310207   ,   5.190959537289236   , -12.974111774574768
+Spectral + EC     , p2.N.wt_pct         , "{'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 100}" , 0.8092500718091649  ,   0.10187778377053218 ,   0.16674977602564386 , -inf
+Spectral + EC     , p2.OC.wt_pct        , "{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 200}" , 0.8075315116340901  ,   1.769803644762019   ,   3.514752365488608   , -57.94994263935494
+Spectral + EC     , p3.K.mg_kg          , "{'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 100}", 0.12954465965640083 , 220.98890347704582    , 378.09438717592246    , -inf
+Spectral + EC     , p3.P.mg_kg          , "{'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 200}", 0.1595127012328822  ,  19.390255191313134   ,  32.58623560199878    , -inf
+Spectral + EC     , p4.CF.wt_pct        , "{'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 50}" , 0.023724759488809588,  11.208299332200664   ,  14.21883680751553    , -inf
+Spectral + pH + EC, p1.pH.index         , "{'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 200}", 0.9998907893945415  ,   0.005815714977306974,   0.014268182568358425, -0.008422130897002496
+Spectral + pH + EC, p1.EC.ds_m          , "{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 200}" , 0.9644327478512751  ,   0.005181263206702659,   0.06034607249912378 , -0.2577041652603353
+Spectral + pH + EC, p1.Sand.wt_pct      , "{'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 50}" , 0.33369903023567704 ,   3.3851570057641016  ,   5.153103497027628   , -12.943663785854756
+Spectral + pH + EC, p2.N.wt_pct         , "{'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 200}", 0.8343798259446882  ,   0.09501630041382211 ,   0.16026417979855584 , -inf
+Spectral + pH + EC, p2.OC.wt_pct        , "{'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 200}", 0.8644007445001777  ,   1.4935922711929248  ,   2.9358464530582875  , -43.432939844312735
+Spectral + pH + EC, p3.K.mg_kg          , "{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 100}", 0.20967632994716112 , 204.36628755425718    , 363.60503523738845    , -69.12688258076433
+Spectral + pH + EC, p3.P.mg_kg          , "{'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 200}", 0.1799753068171832  ,  18.897889925226327   ,  32.187117167531646   , 
+Spectral + pH + EC, p4.CF.wt_pct        , "{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 200}", 0.0647617733456003  ,  10.985196380377968   ,  13.916789458275426   , -inf
