@@ -1,3 +1,9 @@
 data/
 models/
 evaluations/
+evaluations_log/
+evaluations_base/
+venv
+results
+models_bayesian_v1
+models_60k
